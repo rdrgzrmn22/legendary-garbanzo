@@ -1,0 +1,12 @@
+Practice 5-04
+
+After watching the **Sessions Tutorials** answer the following:
+
+1.) question:What function do we use to start a session?
+
+answer: session_start() function
+
+
+2.) question:Where are these session variables stored? 
+
+answer: server
