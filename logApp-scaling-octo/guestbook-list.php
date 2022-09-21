@@ -20,8 +20,8 @@ $persons = mysqli_fetch_all($sqlquery, MYSQLI_ASSOC);
                 <thead class="thead-dark">
                     <tr>
                     <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
                     <th scope="col">Address</th>
                     <th scope="col">Log Date and Time</th>
                     </tr>
@@ -32,8 +32,8 @@ $persons = mysqli_fetch_all($sqlquery, MYSQLI_ASSOC);
                 <?php foreach($persons as $person) : ?>
                     <tr>
                     <th scope="row"><?php echo $person['pid'];?></th>
-                    <td><?php echo $person['lastname'];?></td>
                     <td><?php echo $person['firstname'];?></td>
+                    <td><?php echo $person['lastname'];?></td>
                     <td><?php echo $person['address'];?></td>
                     <td><?php echo $person['logdt'];?></td>
                     </tr>
