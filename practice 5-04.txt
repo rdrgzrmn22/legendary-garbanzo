@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Practice 5-04
 
 After watching the **Sessions Tutorials** answer the following:
@@ -9,4 +10,18 @@ answer: session_start() function
 
 2.) question:Where are these session variables stored? 
 
+answer: $_SERVER
+=======
+Practice 5-04
+
+After watching the **Sessions Tutorials** answer the following:
+
+1.) question:What function do we use to start a session?
+
+answer: session_start(); function
+
+
+2.) question:Where are these session variables stored? 
+
 answer: server
+>>>>>>> e1228da7a9350047993a6f135087a141bf4a829e
